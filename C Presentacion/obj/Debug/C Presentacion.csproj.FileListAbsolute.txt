@@ -91,3 +91,51 @@ C:\Users\jdiaz\Downloads\DENTAL -AV SMILE\C Presentacion\bin\Debug\System.Buffer
 C:\Users\jdiaz\Downloads\DENTAL -AV SMILE\C Presentacion\bin\Debug\System.Memory.xml
 C:\Users\jdiaz\Downloads\DENTAL -AV SMILE\C Presentacion\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\jdiaz\Downloads\DENTAL -AV SMILE\C Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\C Presentacion.exe.config
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\C Presentacion.exe
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\C Presentacion.pdb
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\BouncyCastle.Crypto.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\FontAwesome.Sharp.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Google.Protobuf.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Hash.xxHash.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\MySql.Data.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Buffers.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Memory.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Numerics.Vectors.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Ubiety.Dns.Core.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\ZstdNet.dll
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\BouncyCastle.Crypto.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Google.Protobuf.pdb
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Google.Protobuf.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Hash.xxHash.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\MySql.Data.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Buffers.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Memory.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Numerics.Vectors.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.AssemblyReference.cache
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.BodegaYProductos.RegistrarProducto.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Home.Login.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Home.PantallaPrincipal.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Odontologo.ConsultarOdontologo.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Odontologo.RegistrarOndontologo.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Paciente.ConsultarPaciente.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Paciente.EditarOdontologo.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Paciente.RegistrarPaciente.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Properties.Resources.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Recepcionista.ConsultarRecepcionista.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Recepcionista.EditarRecepcionista.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Recepcionista.RegistrarRecepcionista.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Servicios.ConsultarServicio.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Servicios.EditarServicio.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Servicios.NuevoServicio.resources
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.GenerateResource.cache
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.CoreCompileInputs.cache
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.CopyComplete
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.exe
+D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.pdb

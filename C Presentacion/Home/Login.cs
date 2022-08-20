@@ -67,22 +67,31 @@ namespace C_Presentacion.Home
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            Connection.Open();
-            MySqlCommand comando = new MySqlCommand("SELECT Usuario, Contrasena FROM usuarios WHERE Usuario = @vusuario AND Contrasena = @vcontrasena", Connection);
-            comando.Parameters.AddWithValue("@vusuario", txtusuario.Text);
-            comando.Parameters.AddWithValue("@vcontrasena", txtcontrasena.Text);
-            MySqlDataReader lectura = comando.ExecuteReader();
-            if (lectura.Read())
+
+            try
             {
-                MessageBox.Show("Acceso Correcto");
-                PantallaPrincipal Principal = new PantallaPrincipal();
-                Principal.Show();
+                Connection.Open();
+                MySqlCommand comando = new MySqlCommand("SELECT Usuario, Contrasena FROM usuarios WHERE Usuario = @vusuario AND Contrasena = @vcontrasena", Connection);
+                comando.Parameters.AddWithValue("@vusuario", txtusuario.Text);
+                comando.Parameters.AddWithValue("@vcontrasena", txtcontrasena.Text);
+                MySqlDataReader lectura = comando.ExecuteReader();
+                if (lectura.Read())
+                {
+                    MessageBox.Show("Acceso Correcto");
+                    PantallaPrincipal Principal = new PantallaPrincipal();
+                    Principal.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o Contraseña Incorrectos");
+                }
+                Connection.Close();
             }
-            else
+            catch (MySql.Data.MySqlClient.MySqlException)
             {
-                MessageBox.Show("Usuario o Contraseña Incorrectos");
+                MessageBox.Show("Error de Conexión");
             }
-            Connection.Close();
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
