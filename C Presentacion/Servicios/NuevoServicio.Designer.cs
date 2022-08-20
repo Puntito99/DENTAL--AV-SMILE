@@ -195,6 +195,7 @@ namespace C_Presentacion.Servicios
             this.BtnActuServ.Text = "Guardar";
             this.BtnActuServ.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnActuServ.UseVisualStyleBackColor = false;
+            this.BtnActuServ.Click += new System.EventHandler(this.BtnActuServ_Click);
             // 
             // BtnCancelar
             // 
