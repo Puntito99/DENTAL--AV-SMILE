@@ -18,8 +18,8 @@ namespace C_Presentacion.Home
             InitializeComponent();
         }
 
-        MySqlConnection Connection = new MySqlConnection("server = localhost ; user = root ; password = 8753Jeff.2 ; database = dent-av-smile ; INTEGRATED SECURITY = true");
-
+        MySqlConnection Connection = new MySqlConnection("server = localhost ; user = root ; password = pierinita ; database = dent-av-smile ; INTEGRATED SECURITY = true");
+        public String lblusuario;
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -68,8 +68,7 @@ namespace C_Presentacion.Home
         private void iconButton1_Click(object sender, EventArgs e)
         {
 
-            try
-            {
+            try{
                 Connection.Open();
                 MySqlCommand comando = new MySqlCommand("SELECT Usuario, Contrasena FROM usuarios WHERE Usuario = @vusuario AND Contrasena = @vcontrasena", Connection);
                 comando.Parameters.AddWithValue("@vusuario", txtusuario.Text);
@@ -77,8 +76,10 @@ namespace C_Presentacion.Home
                 MySqlDataReader lectura = comando.ExecuteReader();
                 if (lectura.Read())
                 {
-                    MessageBox.Show("Acceso Correcto");
+                    lblusuario = lectura.GetString(0);
+                    MessageBox.Show("Acceso Correcto: "+lblusuario);
                     PantallaPrincipal Principal = new PantallaPrincipal();
+                    Principal.usuario = lblusuario;
                     Principal.Show();
                 }
                 else
@@ -87,9 +88,9 @@ namespace C_Presentacion.Home
                 }
                 Connection.Close();
             }
-            catch (MySql.Data.MySqlClient.MySqlException)
+            catch (MySqlException error)
             {
-                MessageBox.Show("Error de Conexión");
+                MessageBox.Show("Error de Conexión: \n"+error.GetBaseException());
             }
             
         }

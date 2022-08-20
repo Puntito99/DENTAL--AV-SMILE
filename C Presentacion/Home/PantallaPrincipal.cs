@@ -22,6 +22,7 @@ namespace C_Presentacion.Home
         private IconButton currentbtn;
         private Panel LeftBorderBtn;
         private Form FormularioActivo = null;
+        public String usuario;
 
         private struct RGBCOLORS
         {
@@ -39,6 +40,7 @@ namespace C_Presentacion.Home
         private void PantallaPrincipal_Load(object sender, EventArgs e)
         {
             this.BtnNorm.Visible = false;
+            this.lblusuario.Text = usuario;
         }
 
         private void customdesign()

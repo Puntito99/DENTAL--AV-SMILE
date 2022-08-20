@@ -1,4 +1,6 @@
 ﻿
+using System.Windows.Forms;
+
 namespace C_Presentacion.Home
 {
     partial class PantallaPrincipal
@@ -39,7 +41,7 @@ namespace C_Presentacion.Home
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.PanelInfo = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblusuario = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.OpcServicios = new System.Windows.Forms.Panel();
             this.BtnDeshServ = new FontAwesome.Sharp.IconButton();
@@ -200,7 +202,7 @@ namespace C_Presentacion.Home
             // 
             this.PanelInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(53)))), ((int)(((byte)(103)))));
             this.PanelInfo.Controls.Add(this.label2);
-            this.PanelInfo.Controls.Add(this.label1);
+            this.PanelInfo.Controls.Add(this.lblusuario);
             this.PanelInfo.Controls.Add(this.iconPictureBox1);
             this.PanelInfo.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelInfo.ForeColor = System.Drawing.Color.White;
@@ -219,16 +221,16 @@ namespace C_Presentacion.Home
             this.label2.TabIndex = 2;
             this.label2.Text = "Rol de usuario";
             // 
-            // label1
+            // lblusuario
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(86, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 22);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "[Usuario]";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblusuario.AutoSize = true;
+            this.lblusuario.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblusuario.Location = new System.Drawing.Point(86, 24);
+            this.lblusuario.Name = "lblusuario";
+            this.lblusuario.Size = new System.Drawing.Size(89, 22);
+            this.lblusuario.TabIndex = 1;
+            this.lblusuario.Text = "[Usuario]";
+            this.lblusuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // iconPictureBox1
             // 
@@ -1003,7 +1005,7 @@ namespace C_Presentacion.Home
         private System.Windows.Forms.Panel PanelForms;
         private System.Windows.Forms.Panel PanelInfo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblusuario;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private FontAwesome.Sharp.IconButton BtnServicios;
         private System.Windows.Forms.Panel OpcServicios;

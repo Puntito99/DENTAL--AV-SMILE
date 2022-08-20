@@ -139,3 +139,51 @@ D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Pre
 D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.CopyComplete
 D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.exe
 D:\Respaldo\Respaldos\Desktop\Escritorio\DENTAL -AV SMILE\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.pdb
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\C Presentacion.exe.config
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\C Presentacion.exe
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\C Presentacion.pdb
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Google.Protobuf.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\MySql.Data.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Buffers.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Memory.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\ZstdNet.dll
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Google.Protobuf.pdb
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\Google.Protobuf.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\MySql.Data.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Buffers.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Memory.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.AssemblyReference.cache
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.BodegaYProductos.RegistrarProducto.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Home.Login.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Home.PantallaPrincipal.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Odontologo.ConsultarOdontologo.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Odontologo.RegistrarOndontologo.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Paciente.ConsultarPaciente.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Paciente.EditarOdontologo.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Paciente.RegistrarPaciente.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Properties.Resources.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Recepcionista.ConsultarRecepcionista.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Recepcionista.EditarRecepcionista.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Recepcionista.RegistrarRecepcionista.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Servicios.ConsultarServicio.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Servicios.EditarServicio.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Servicios.NuevoServicio.resources
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.GenerateResource.cache
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.CopyComplete
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.exe
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.pdb
