@@ -36,7 +36,6 @@ namespace C_Presentacion.Servicios
             this.txtDescrServ = new System.Windows.Forms.TextBox();
             this.txtCostServ = new System.Windows.Forms.TextBox();
             this.txtNombServ = new System.Windows.Forms.TextBox();
-            this.CmbTipoServ = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,6 +44,8 @@ namespace C_Presentacion.Servicios
             this.BtnCancelar = new FontAwesome.Sharp.IconButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.CmbTipoServ = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.panelEditServ.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -66,12 +67,13 @@ namespace C_Presentacion.Servicios
             // panelEditServ
             // 
             this.panelEditServ.BackColor = System.Drawing.Color.White;
+            this.panelEditServ.Controls.Add(this.CmbTipoServ);
+            this.panelEditServ.Controls.Add(this.iconButton1);
             this.panelEditServ.Controls.Add(this.LblCodServ);
             this.panelEditServ.Controls.Add(this.label6);
             this.panelEditServ.Controls.Add(this.txtDescrServ);
             this.panelEditServ.Controls.Add(this.txtCostServ);
             this.panelEditServ.Controls.Add(this.txtNombServ);
-            this.panelEditServ.Controls.Add(this.CmbTipoServ);
             this.panelEditServ.Controls.Add(this.label5);
             this.panelEditServ.Controls.Add(this.label3);
             this.panelEditServ.Controls.Add(this.label2);
@@ -120,18 +122,10 @@ namespace C_Presentacion.Servicios
             // 
             // txtNombServ
             // 
-            this.txtNombServ.Location = new System.Drawing.Point(183, 51);
+            this.txtNombServ.Location = new System.Drawing.Point(183, 66);
             this.txtNombServ.Name = "txtNombServ";
             this.txtNombServ.Size = new System.Drawing.Size(165, 20);
             this.txtNombServ.TabIndex = 7;
-            // 
-            // CmbTipoServ
-            // 
-            this.CmbTipoServ.FormattingEnabled = true;
-            this.CmbTipoServ.Location = new System.Drawing.Point(183, 98);
-            this.CmbTipoServ.Name = "CmbTipoServ";
-            this.CmbTipoServ.Size = new System.Drawing.Size(165, 21);
-            this.CmbTipoServ.TabIndex = 6;
             // 
             // label5
             // 
@@ -157,7 +151,7 @@ namespace C_Presentacion.Servicios
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 95);
+            this.label2.Location = new System.Drawing.Point(9, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 21);
             this.label2.TabIndex = 2;
@@ -167,7 +161,7 @@ namespace C_Presentacion.Servicios
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 48);
+            this.label1.Location = new System.Drawing.Point(9, 63);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 21);
             this.label1.TabIndex = 1;
@@ -232,6 +226,38 @@ namespace C_Presentacion.Servicios
             this.label4.TabIndex = 11;
             this.label4.Text = "Editar servicio";
             // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(36)))), ((int)(((byte)(71)))));
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.CheckSquare;
+            this.iconButton1.IconColor = System.Drawing.Color.White;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 35;
+            this.iconButton1.Location = new System.Drawing.Point(277, 7);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(151, 45);
+            this.iconButton1.TabIndex = 22;
+            this.iconButton1.Text = "Actuzalizar";
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            // 
+            // CmbTipoServ
+            // 
+            this.CmbTipoServ.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbTipoServ.FormattingEnabled = true;
+            this.CmbTipoServ.Items.AddRange(new object[] {
+            "Limpieza",
+            "Ortodoncia",
+            "Protesis"});
+            this.CmbTipoServ.Location = new System.Drawing.Point(183, 99);
+            this.CmbTipoServ.Name = "CmbTipoServ";
+            this.CmbTipoServ.Size = new System.Drawing.Size(165, 21);
+            this.CmbTipoServ.TabIndex = 23;
+            // 
             // EditarServicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -260,7 +286,6 @@ namespace C_Presentacion.Servicios
         private System.Windows.Forms.TextBox txtDescrServ;
         private System.Windows.Forms.TextBox txtCostServ;
         private System.Windows.Forms.TextBox txtNombServ;
-        private System.Windows.Forms.ComboBox CmbTipoServ;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -272,5 +297,7 @@ namespace C_Presentacion.Servicios
         private System.Windows.Forms.Panel panelEditServ;
         private FontAwesome.Sharp.IconButton BtnActuServ;
         private FontAwesome.Sharp.IconButton BtnCancelar;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private System.Windows.Forms.ComboBox CmbTipoServ;
     }
 }

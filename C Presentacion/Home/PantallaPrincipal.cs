@@ -306,5 +306,24 @@ namespace C_Presentacion.Home
         {
 
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            try
+            {
+                Login l = new Login();
+                l.Show();
+            }
+            catch (NullReferenceException error)
+            {
+                MessageBox.Show( error.Message);
+            }
+        }
+
+        private void BtnDeshServ_Click(object sender, EventArgs e)
+        {
+            abrirhijoform(new eliminarServicio());
+        }
     }
 }

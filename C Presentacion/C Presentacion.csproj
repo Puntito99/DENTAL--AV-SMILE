@@ -176,6 +176,12 @@
     <Compile Include="Servicios\EditarServicio.Designer.cs">
       <DependentUpon>EditarServicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Servicios\eliminarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servicios\eliminarServicio.Designer.cs">
+      <DependentUpon>eliminarServicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Servicios\NuevoServicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Servicios\EditarServicio.resx">
       <DependentUpon>EditarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servicios\eliminarServicio.resx">
+      <DependentUpon>eliminarServicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Servicios\NuevoServicio.resx">
       <DependentUpon>NuevoServicio.cs</DependentUpon>

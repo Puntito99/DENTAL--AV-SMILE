@@ -275,6 +275,7 @@ namespace C_Presentacion.Home
             this.BtnDeshServ.TabIndex = 3;
             this.BtnDeshServ.Text = "Deshabilitar servicio";
             this.BtnDeshServ.UseVisualStyleBackColor = false;
+            this.BtnDeshServ.Click += new System.EventHandler(this.BtnDeshServ_Click);
             // 
             // BtnVerServ
             // 
@@ -589,6 +590,7 @@ namespace C_Presentacion.Home
             this.BtnSalir.Text = "Cerrar sesión";
             this.BtnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             this.BtnSalir.MouseLeave += new System.EventHandler(this.BtnSalir_MouseLeave);
             this.BtnSalir.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BtnSalir_MouseMove);
             // 

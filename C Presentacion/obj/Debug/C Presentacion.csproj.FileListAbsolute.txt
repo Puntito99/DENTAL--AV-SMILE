@@ -187,3 +187,4 @@ C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVEN
 C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.csproj.CopyComplete
 C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.exe
 C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C Presentacion.pdb
+C:\Users\Pierina Macías\Desktop\SEPTIMO SEMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\Repositorios Github\DENTAL--AV-SMILE\C Presentacion\obj\Debug\C_Presentacion.Servicios.eliminarServicio.resources
