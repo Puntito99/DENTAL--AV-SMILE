@@ -115,12 +115,11 @@ namespace C_Presentacion.Servicios
             // 
             // CmbTipoServ
             // 
+            this.CmbTipoServ.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbTipoServ.FormattingEnabled = true;
             this.CmbTipoServ.Items.AddRange(new object[] {
             "Limpieza",
-            "",
             "Ortodoncia",
-            "",
             "Protesis"});
             this.CmbTipoServ.Location = new System.Drawing.Point(184, 65);
             this.CmbTipoServ.Name = "CmbTipoServ";

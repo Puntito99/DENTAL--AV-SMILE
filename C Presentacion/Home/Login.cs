@@ -87,6 +87,7 @@ namespace C_Presentacion.Home
                     MessageBox.Show("Usuario o Contraseña Incorrectos");
                 }
                 Connection.Close();
+                this.Hide();
             }
             catch (MySqlException error)
             {

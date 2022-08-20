@@ -33,7 +33,7 @@ namespace C_Presentacion.Servicios
             try
             {
                 Connection.Open();
-                MySqlCommand comando = new MySqlCommand("INSERT INTO servicios (nombre,tipo,descripcion,Costo) VALUES ( @nombre, @tipo, @descripcion,@costo);", Connection);
+                MySqlCommand comando = new MySqlCommand("INSERT INTO servicios (nombre,tipo,descripcion,Costo) VALUES ( @nombre, @tipo, @descripcion,@costo)", Connection);
                 comando.Parameters.AddWithValue("@nombre", txtNomServ.Text);
                 comando.Parameters.AddWithValue("@tipo", CmbTipoServ.SelectedItem);
                 comando.Parameters.AddWithValue("@descripcion", txtDescrServ.Text);
@@ -45,7 +45,13 @@ namespace C_Presentacion.Servicios
             }
             catch (MySqlException error)
             {
-                MessageBox.Show("Error de BD: "+error.GetBaseException());
+                MessageBox.Show("Error de BD: "+error.Message);
+                Connection.Close();
+            }
+            catch (InvalidOperationException error)
+            {
+                MessageBox.Show("Error de BD: " + error.Message);
+                Connection.Close();
             }
         }
 
