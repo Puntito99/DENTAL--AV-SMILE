@@ -109,31 +109,37 @@ namespace C_Presentacion.Servicios
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(10, 212);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 21);
+            this.label5.Size = new System.Drawing.Size(141, 21);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Costo";
+            this.label5.Text = "Costo ($, entero)";
             // 
             // CmbTipoServ
             // 
             this.CmbTipoServ.FormattingEnabled = true;
+            this.CmbTipoServ.Items.AddRange(new object[] {
+            "Limpieza",
+            "",
+            "Ortodoncia",
+            "",
+            "Protesis"});
             this.CmbTipoServ.Location = new System.Drawing.Point(184, 65);
             this.CmbTipoServ.Name = "CmbTipoServ";
             this.CmbTipoServ.Size = new System.Drawing.Size(165, 21);
-            this.CmbTipoServ.TabIndex = 6;
+            this.CmbTipoServ.TabIndex = 2;
             // 
             // txtNomServ
             // 
             this.txtNomServ.Location = new System.Drawing.Point(184, 18);
             this.txtNomServ.Name = "txtNomServ";
             this.txtNomServ.Size = new System.Drawing.Size(165, 20);
-            this.txtNomServ.TabIndex = 7;
+            this.txtNomServ.TabIndex = 1;
             // 
             // txtCostServ
             // 
             this.txtCostServ.Location = new System.Drawing.Point(184, 215);
             this.txtCostServ.Name = "txtCostServ";
             this.txtCostServ.Size = new System.Drawing.Size(165, 20);
-            this.txtCostServ.TabIndex = 8;
+            this.txtCostServ.TabIndex = 4;
             // 
             // txtDescrServ
             // 
@@ -142,7 +148,7 @@ namespace C_Presentacion.Servicios
             this.txtDescrServ.Name = "txtDescrServ";
             this.txtDescrServ.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtDescrServ.Size = new System.Drawing.Size(245, 84);
-            this.txtDescrServ.TabIndex = 9;
+            this.txtDescrServ.TabIndex = 3;
             // 
             // errorProvider1
             // 
@@ -188,10 +194,10 @@ namespace C_Presentacion.Servicios
             this.BtnActuServ.IconColor = System.Drawing.Color.White;
             this.BtnActuServ.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnActuServ.IconSize = 35;
-            this.BtnActuServ.Location = new System.Drawing.Point(103, 314);
+            this.BtnActuServ.Location = new System.Drawing.Point(144, 315);
             this.BtnActuServ.Name = "BtnActuServ";
             this.BtnActuServ.Size = new System.Drawing.Size(151, 45);
-            this.BtnActuServ.TabIndex = 17;
+            this.BtnActuServ.TabIndex = 5;
             this.BtnActuServ.Text = "Guardar";
             this.BtnActuServ.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnActuServ.UseVisualStyleBackColor = false;
@@ -208,13 +214,14 @@ namespace C_Presentacion.Servicios
             this.BtnCancelar.IconColor = System.Drawing.Color.White;
             this.BtnCancelar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.BtnCancelar.IconSize = 35;
-            this.BtnCancelar.Location = new System.Drawing.Point(269, 314);
+            this.BtnCancelar.Location = new System.Drawing.Point(310, 315);
             this.BtnCancelar.Name = "BtnCancelar";
-            this.BtnCancelar.Size = new System.Drawing.Size(166, 45);
-            this.BtnCancelar.TabIndex = 18;
-            this.BtnCancelar.Text = "Cancelar";
+            this.BtnCancelar.Size = new System.Drawing.Size(114, 45);
+            this.BtnCancelar.TabIndex = 6;
+            this.BtnCancelar.Text = "Limpiar";
             this.BtnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnCancelar.UseVisualStyleBackColor = false;
+            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // NuevoServicio
             // 
