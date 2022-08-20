@@ -225,9 +225,9 @@ namespace C_Presentacion.Home
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(86, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 22);
+            this.label1.Size = new System.Drawing.Size(89, 22);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Lina Sánchez";
+            this.label1.Text = "[Usuario]";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // iconPictureBox1
