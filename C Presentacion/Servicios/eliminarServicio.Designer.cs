@@ -36,15 +36,15 @@ namespace C_Presentacion.Servicios
             this.txtIdServ = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelT = new System.Windows.Forms.Panel();
-            this.BtnElServ = new FontAwesome.Sharp.IconButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblConfirma = new System.Windows.Forms.Label();
+            this.panelT = new System.Windows.Forms.Panel();
+            this.BtnElServ = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panelT.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panelT.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -102,6 +102,25 @@ namespace C_Presentacion.Servicios
             this.panel2.Size = new System.Drawing.Size(551, 396);
             this.panel2.TabIndex = 13;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.lblConfirma);
+            this.panel3.Location = new System.Drawing.Point(31, 106);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(484, 221);
+            this.panel3.TabIndex = 21;
+            // 
+            // lblConfirma
+            // 
+            this.lblConfirma.AutoSize = true;
+            this.lblConfirma.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirma.Location = new System.Drawing.Point(3, 9);
+            this.lblConfirma.Name = "lblConfirma";
+            this.lblConfirma.Size = new System.Drawing.Size(237, 21);
+            this.lblConfirma.TabIndex = 6;
+            this.lblConfirma.Text = "Esperando input del usuario...";
+            // 
             // panelT
             // 
             this.panelT.BackColor = System.Drawing.Color.White;
@@ -133,25 +152,6 @@ namespace C_Presentacion.Servicios
             this.BtnElServ.UseVisualStyleBackColor = false;
             this.BtnElServ.Click += new System.EventHandler(this.BtnActuServ_Click);
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.lblConfirma);
-            this.panel3.Location = new System.Drawing.Point(31, 106);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(484, 221);
-            this.panel3.TabIndex = 21;
-            // 
-            // lblConfirma
-            // 
-            this.lblConfirma.AutoSize = true;
-            this.lblConfirma.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConfirma.Location = new System.Drawing.Point(13, 15);
-            this.lblConfirma.Name = "lblConfirma";
-            this.lblConfirma.Size = new System.Drawing.Size(237, 21);
-            this.lblConfirma.TabIndex = 6;
-            this.lblConfirma.Text = "Esperando input del usuario...";
-            // 
             // eliminarServicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -168,10 +168,10 @@ namespace C_Presentacion.Servicios
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panelT.ResumeLayout(false);
-            this.panelT.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panelT.ResumeLayout(false);
+            this.panelT.PerformLayout();
             this.ResumeLayout(false);
 
         }

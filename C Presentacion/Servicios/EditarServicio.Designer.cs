@@ -31,7 +31,6 @@ namespace C_Presentacion.Servicios
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelEditServ = new System.Windows.Forms.Panel();
-            this.LblCodServ = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtDescrServ = new System.Windows.Forms.TextBox();
             this.txtCostServ = new System.Windows.Forms.TextBox();
@@ -46,6 +45,7 @@ namespace C_Presentacion.Servicios
             this.label4 = new System.Windows.Forms.Label();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.CmbTipoServ = new System.Windows.Forms.ComboBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panelEditServ.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -67,9 +67,9 @@ namespace C_Presentacion.Servicios
             // panelEditServ
             // 
             this.panelEditServ.BackColor = System.Drawing.Color.White;
+            this.panelEditServ.Controls.Add(this.txtID);
             this.panelEditServ.Controls.Add(this.CmbTipoServ);
             this.panelEditServ.Controls.Add(this.iconButton1);
-            this.panelEditServ.Controls.Add(this.LblCodServ);
             this.panelEditServ.Controls.Add(this.label6);
             this.panelEditServ.Controls.Add(this.txtDescrServ);
             this.panelEditServ.Controls.Add(this.txtCostServ);
@@ -83,17 +83,6 @@ namespace C_Presentacion.Servicios
             this.panelEditServ.Size = new System.Drawing.Size(498, 285);
             this.panelEditServ.TabIndex = 21;
             // 
-            // LblCodServ
-            // 
-            this.LblCodServ.BackColor = System.Drawing.Color.White;
-            this.LblCodServ.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblCodServ.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCodServ.Location = new System.Drawing.Point(183, 12);
-            this.LblCodServ.Name = "LblCodServ";
-            this.LblCodServ.Size = new System.Drawing.Size(71, 23);
-            this.LblCodServ.TabIndex = 13;
-            this.LblCodServ.Text = "17";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -106,26 +95,29 @@ namespace C_Presentacion.Servicios
             // 
             // txtDescrServ
             // 
+            this.txtDescrServ.Enabled = false;
             this.txtDescrServ.Location = new System.Drawing.Point(183, 143);
             this.txtDescrServ.Multiline = true;
             this.txtDescrServ.Name = "txtDescrServ";
             this.txtDescrServ.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtDescrServ.Size = new System.Drawing.Size(245, 84);
-            this.txtDescrServ.TabIndex = 9;
+            this.txtDescrServ.TabIndex = 5;
             // 
             // txtCostServ
             // 
+            this.txtCostServ.Enabled = false;
             this.txtCostServ.Location = new System.Drawing.Point(183, 248);
             this.txtCostServ.Name = "txtCostServ";
             this.txtCostServ.Size = new System.Drawing.Size(165, 20);
-            this.txtCostServ.TabIndex = 8;
+            this.txtCostServ.TabIndex = 6;
             // 
             // txtNombServ
             // 
+            this.txtNombServ.Enabled = false;
             this.txtNombServ.Location = new System.Drawing.Point(183, 66);
             this.txtNombServ.Name = "txtNombServ";
             this.txtNombServ.Size = new System.Drawing.Size(165, 20);
-            this.txtNombServ.TabIndex = 7;
+            this.txtNombServ.TabIndex = 3;
             // 
             // label5
             // 
@@ -181,10 +173,11 @@ namespace C_Presentacion.Servicios
             this.BtnActuServ.Location = new System.Drawing.Point(107, 313);
             this.BtnActuServ.Name = "BtnActuServ";
             this.BtnActuServ.Size = new System.Drawing.Size(151, 45);
-            this.BtnActuServ.TabIndex = 19;
+            this.BtnActuServ.TabIndex = 7;
             this.BtnActuServ.Text = "Actuzalizar";
             this.BtnActuServ.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnActuServ.UseVisualStyleBackColor = false;
+            this.BtnActuServ.Click += new System.EventHandler(this.BtnActuServ_Click);
             // 
             // BtnCancelar
             // 
@@ -200,10 +193,11 @@ namespace C_Presentacion.Servicios
             this.BtnCancelar.Location = new System.Drawing.Point(273, 313);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(166, 45);
-            this.BtnCancelar.TabIndex = 20;
+            this.BtnCancelar.TabIndex = 8;
             this.BtnCancelar.Text = "Cancelar";
             this.BtnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnCancelar.UseVisualStyleBackColor = false;
+            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // panel1
             // 
@@ -233,21 +227,23 @@ namespace C_Presentacion.Servicios
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.iconButton1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton1.ForeColor = System.Drawing.Color.White;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.CheckSquare;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Search;
             this.iconButton1.IconColor = System.Drawing.Color.White;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton1.IconSize = 35;
             this.iconButton1.Location = new System.Drawing.Point(277, 7);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(151, 45);
-            this.iconButton1.TabIndex = 22;
-            this.iconButton1.Text = "Actuzalizar";
+            this.iconButton1.TabIndex = 2;
+            this.iconButton1.Text = "Buscar";
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // CmbTipoServ
             // 
             this.CmbTipoServ.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbTipoServ.Enabled = false;
             this.CmbTipoServ.FormattingEnabled = true;
             this.CmbTipoServ.Items.AddRange(new object[] {
             "Limpieza",
@@ -256,7 +252,14 @@ namespace C_Presentacion.Servicios
             this.CmbTipoServ.Location = new System.Drawing.Point(183, 99);
             this.CmbTipoServ.Name = "CmbTipoServ";
             this.CmbTipoServ.Size = new System.Drawing.Size(165, 21);
-            this.CmbTipoServ.TabIndex = 23;
+            this.CmbTipoServ.TabIndex = 4;
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(183, 15);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(62, 20);
+            this.txtID.TabIndex = 1;
             // 
             // EditarServicio
             // 
@@ -292,12 +295,12 @@ namespace C_Presentacion.Servicios
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label LblCodServ;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panelEditServ;
         private FontAwesome.Sharp.IconButton BtnActuServ;
         private FontAwesome.Sharp.IconButton BtnCancelar;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.ComboBox CmbTipoServ;
+        private System.Windows.Forms.TextBox txtID;
     }
 }
